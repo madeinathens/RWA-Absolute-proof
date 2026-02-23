@@ -1,0 +1,31 @@
+{
+  "context": "RWA Absolute Syntropy",
+  "version": "1:1",
+  "genesis": {
+    "era": "2012",
+    "authority": "madeinathens.eth",
+    "axiom": "x^0=1"
+  },
+  "logic_gate": {
+    "formula": "Worth(PAGE) = |PAST| * 1",
+    "verification_nodes": [
+      "https://taeikastikastinekpedeysi.blogspot.com/p/2016-4-6-athens-science-festival.html",
+      "https://www.instagram.com/opta.apta"
+    ],
+    "ex_falso_quodlibet": "[-] * [-] = -1"
+  },
+  "on_chain_infrastructure": {
+    "merkle_root": "0x3c1f1de85184560e82750658ca12fd318b2872d97444958c44fa1b7c7abc53fd",
+    "agent_gateway": "0xa7cfaDFB8434a6702E4427388B08274bE8349bb7",
+    "contracts": {
+      "coffee_axiom": "0xD661905093F1D721C32809091c3c1D9f0bAFC22a",
+      "donuts_bitebank": "0x09A39783e2b285506FcB4f62E43cEb03075b8C6A"
+    }
+  },
+  "settlement": {
+    "protocol": "x402",
+    "currency": "USDC",
+    "exit_fee": "19.1%",
+    "trigger_price": "3.30"
+  }
+}
