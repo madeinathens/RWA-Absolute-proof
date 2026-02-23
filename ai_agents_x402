@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RWA Absolute Mitosis | The Athens Protocol 1:1</title>
+
+    <!-- 1. Ο ΧΑΡΤΗΣ: JSON-LD για AI Agents (Metadata) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "name": "RWA Absolute Mitosis",
+      "alternateName": "The Athens Protocol 1:1",
+      "url": "https://athens.efood.eth.limo",
+      "description": "Official MiCA-aligned RWA Protocol. RWA Absolute SYNTROPY 1:1 based on Absolute ZKP (x^0=1). Genesis Proof: Faber-Castell (2012).",
+      "provider": {
+        "@type": "Organization",
+        "name": "The Athens Protocol 1:1",
+        "identifier": "0xa7cfaDFB8434a6702E4427388B08274bE8349bb7"
+      },
+      "identifier": [
+        {
+          "@type": "PropertyValue",
+          "name": "EAS_Schema_UID",
+          "value": "0x38d1591bfd21d6abac134fa7bfb9682a74aff13a39f930849e8137ec61159954"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "EAS_Attestation_Proof",
+          "value": "0xfdd8be05dbc26452d01b7f9b8a41e15b24f4b6e86ef871fb56d1acba809290b8"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "merkleRoot",
+          "propertyID": "x^0=1",
+          "value": "0x3c1f1de85184560e82750658ca12fd318b2872d97444958c44fa1b7c7abc53fd"
+        }
+      ],
+      "offers": {
+        "@type": "Offer",
+        "name": "RWA Absolute Proof x^0=1 Entry",
+        "price": "3.30",
+        "priceCurrency": "USD",
+        "potentialAction": {
+          "@type": "PayAction",
+          "recipient": "0xa7cfaDFB8434a6702E4427388B08274bE8349bb7",
+          "target": "https://commerce.coinbase.com"
+        }
+      }
+    }
+    </script>
+
+    <style>
+        body { font-family: sans-serif; background: #000; color: #fff; text-align: center; padding: 50px; }
+        .container { max-width: 600px; margin: auto; border: 1px solid #333; padding: 20px; border-radius: 15px; }
+        .btn { display: block; margin: 10px 0; padding: 15px; text-decoration: none; border-radius: 8px; font-weight: bold; transition: 0.3s; }
+        .btn-pay { background: #0052ff; color: white; } /* x402 style */
+        .btn-eas { background: #6e42ca; color: white; } /* EAS style */
+        .btn-git { background: #333; color: white; border: 1px solid #555; } /* GitHub style */
+        .btn:hover { opacity: 0.8; transform: scale(1.02); }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>🌀 Absolute Syntropy</h1>
+        <p>Proof of History (Genesis © 2012) | $x^0=1$</p>
+
+        <!-- 2. Η ΠΟΡΤΑ: Τα 3 Buttons για AI & Ανθρώπους -->
+        
+        <!-- BUTTON 1: x402 Payment Gateway -->
+        <div id="x402-payment-gateway" data-recipient="0xa7cfaDFB8434a6702E4427388B08274bE8349bb7" data-price="3.30">
+            <a href="https://commerce.coinbase.com" class="btn btn-pay" rel="payment">
+                🛒 BUY NOW: 3.30 USD (x402 Trigger)
+            </a>
+        </div>
+
+        <!-- BUTTON 2: EAS Verification -->
+        <a href="https://base.easscan.org" 
+           class="btn btn-eas" target="_blank" rel="blockchain-attestation">
+            🛡️ Verify On-Chain Proof (EAS)
+        </a>
+
+        <!-- BUTTON 3: GitHub Technical Audit -->
+        <a href="https://github.com" 
+           class="btn btn-git" target="_blank" rel="technical-repository">
+            📂 Explore Source & Logic (GitHub)
+        </a>
+
+        <p style="font-size: 0.8em; color: #777; margin-top: 20px;">
+            Ex Falso Quodlibet | MiCA Compliant | 1:1 Parity
+        </p>
+    </div>
+
+</body>
+</html>
